@@ -8,7 +8,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ml-auto mr--5">
+        <b-navbar-nav class="ml-auto mr--4">
           <b-nav-item class="px--4" to="/social/instagram">
             <i class="fab fa-instagram fa-custom"></i>
           </b-nav-item>
@@ -49,8 +49,8 @@ export default {
   padding-left: 4vw;
   padding-right: 4vw;
 }
-.mr--5 {
-  margin-right: 5vw;
+.mr--4 {
+  margin-right: 4vw;
 }
 .fa-custom {
   font-size: 3vw;
