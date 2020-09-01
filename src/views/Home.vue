@@ -40,6 +40,20 @@
     <br />
     <br />
     <br />
+    <div class="px--3 bg-color-c">
+      <br />
+      <div class="text-c5">RULES</div>
+      <br />
+      <div class="text-c6">
+        1) Content must be original.
+        <br />2) Submit within the deadline (11:59 PM, Sunday, September 6).
+        <br />3) Submit only 1 artwork per person.
+        <br />4) Artwork must follow the theme of emotion. (Pick any emotion to convey)
+        <br />5) While submitting, specify the emotion that you've chosen, and the idea behind your work.
+        <br />6) Upload 2 shots, one progress shot (50% completed), and one of your completed work.
+      </div>
+      <br />
+    </div>
   </b-container>
 </template>
 
@@ -97,9 +111,22 @@ export default {
 .text-c3 {
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: "SF Pro Display Semibold";
 }
 .text-c4 {
   font-size: 1.8rem;
+  font-family: "SF Pro Display Regular";
+}
+.text-c5 {
+  font-size: 5rem;
+  color: white;
+  font-weight: bolder;
+  font-family: "Bison Bold";
+}
+.text-c6 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "SF Pro Display Semibold";
 }
 .col-custom {
   max-width: 45%;
