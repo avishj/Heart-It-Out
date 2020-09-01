@@ -40,7 +40,7 @@
     <br />
     <br />
     <br />
-    <div class="px--3 bg-color-c">
+    <div id="rules" class="px--3 bg-color-c">
       <br />
       <div class="text-c5">RULES</div>
       <br />
@@ -54,6 +54,15 @@
       </div>
       <br />
     </div>
+    <div class="text-center text-color-b text-c1 my--2">EVENT BY</div>
+    <b-row class="row-custom">
+      <b-col class="my--2" md="6">
+        <b-img class="d-block mx-auto" fluid :src="require('../assets/img/SOSLogoFooter.png')"></b-img>
+      </b-col>
+      <b-col class="my--2" md="6">
+        <b-img class="d-block mx-auto" fluid :src="require('../assets/img/TFACLogoFooter.png')"></b-img>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -75,6 +84,9 @@ export default {
 .px--3 {
   padding-left: 3vw;
   padding-right: 3vw;
+}
+.row-custom {
+  margin: 0;
 }
 /* .px--5 {
   padding-left: 5vw;
@@ -109,7 +121,7 @@ export default {
   font-size: 2rem;
 }
 .text-c3 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   font-family: "SF Pro Display Semibold";
 }
@@ -118,13 +130,13 @@ export default {
   font-family: "SF Pro Display Regular";
 }
 .text-c5 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: white;
   font-weight: bolder;
   font-family: "Bison Bold";
 }
 .text-c6 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   font-family: "SF Pro Display Semibold";
 }
@@ -135,5 +147,9 @@ export default {
 .btn-custom {
   border-radius: 1rem;
   border-width: 0.35rem;
+}
+.page-fill {
+  height: 100vh;
+  width: 100%;
 }
 </style>
