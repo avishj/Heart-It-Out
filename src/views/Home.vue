@@ -1,5 +1,5 @@
 <template>
-  <b-container class="app-home">
+  <b-container fluid class="app-home">
     <Navbar />
   </b-container>
 </template>
@@ -15,4 +15,8 @@ export default {
 </script>
 
 <style>
+.container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 </style>
