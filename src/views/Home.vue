@@ -7,6 +7,7 @@
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
     <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
+    <br />
     <b-row no-gutters class="px--3 my--2" cols="1" cols-md="2">
       <b-col class="col-custom mr-auto">
         <b-button
@@ -22,18 +23,23 @@
       </b-col>
     </b-row>
     <br />
+    <br />
     <div class="text-color-c px--3">
-      <div class="text-c3">September 4: 6:00 - 8:00 PM</div>
+      <div class="text-c3">September 4 (6:00 - 8:00 PM)</div>
       <br />
       <div class="text-c4">
         A webinar will be held about the art competition.
         <br />A speaker session will be held on the importance of art in life and its valuable role in mental health.
       </div>
       <br />
-      <div class="text-c3">September 5 & 6:</div>
+      <div class="text-c3">September 5 & 6</div>
       <br />
       <div class="text-c4">The entries to the competition shall be accepted via a form.</div>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
   </b-container>
 </template>
 
@@ -89,6 +95,11 @@ export default {
   font-size: 2rem;
 }
 .text-c3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.text-c4 {
+  font-size: 1.8rem;
 }
 .col-custom {
   max-width: 45%;
