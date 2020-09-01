@@ -73,7 +73,7 @@ export default {
   font-size: 2rem;
 }
 .col-custom {
-  max-width: 40%;
+  max-width: 39%;
   display: block;
 }
 .btn-custom {
