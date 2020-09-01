@@ -7,8 +7,8 @@
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
     <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
-    <b-row no-gutters class="my--2">
-      <b-col class="col-custom mx-auto" cols="12" md="6">
+    <b-row no-gutters class="my--2" cols="1" cols-md="2">
+      <b-col class="col-custom mx-auto">
         <b-button
           class="text-c2 btn-custom"
           block
@@ -17,10 +17,11 @@
           v-scroll-to="{el: '#rules', easing: 'ease'}"
         >RULES</b-button>
       </b-col>
-      <b-col class="col-custom mx-auto" cols="12" md="6">
-        <b-button block class="text-c2 btn-custom" size="lg" variant="color-c">REGISTER NOW</b-button>
+      <b-col class="col-custom mx-auto">
+        <b-button block class="text-c2 btn-custom" size="lg" variant="color-c">REGISTER</b-button>
       </b-col>
     </b-row>
+    <br />
   </b-container>
 </template>
 
@@ -69,10 +70,10 @@ export default {
 }
 .text-c2 {
   font-family: "Bison Bold";
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .col-custom {
-  max-width: 30%;
+  max-width: 40%;
   display: block;
 }
 .btn-custom {
