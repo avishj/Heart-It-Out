@@ -8,7 +8,7 @@
     ></b-img>
     <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
     <b-row no-gutters class="my--2">
-      <b-col class="col-custom mx-auto" cols="6">
+      <b-col class="col-custom mx-auto" cols="12" md="6">
         <b-button
           class="text-c2 btn-custom"
           block
@@ -17,7 +17,7 @@
           v-scroll-to="{el: '#rules', easing: 'ease'}"
         >RULES</b-button>
       </b-col>
-      <b-col class="col-custom mx-auto" cols="6">
+      <b-col class="col-custom mx-auto" cols="12" md="6">
         <b-button block class="text-c2 btn-custom" size="lg" variant="color-c">REGISTER NOW</b-button>
       </b-col>
     </b-row>
