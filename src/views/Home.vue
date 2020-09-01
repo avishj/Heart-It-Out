@@ -6,6 +6,7 @@
       fluid
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
+    <div class="text-center text-color-b text-c1">4 SEPTEMBER - 6 SEPTEMBER</div>
   </b-container>
 </template>
 
@@ -33,5 +34,9 @@ export default {
 }
 .image--main {
   min-width: 94vw;
+}
+.text-c1 {
+  font-family: "Bison Bold";
+  font-size: 3rem;
 }
 </style>

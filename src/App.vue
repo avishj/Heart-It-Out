@@ -15,3 +15,10 @@ export default {
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap-vue/src/index.scss";
 </style>
+
+<style>
+@font-face {
+  font-family: "Bison Bold";
+  src: url("./assets/fonts/Bison-Bold.ttf");
+}
+</style>
