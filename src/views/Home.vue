@@ -7,8 +7,8 @@
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
     <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
-    <b-row no-gutters class="my--2" cols="1" cols-md="2">
-      <b-col class="col-custom mx-auto">
+    <b-row no-gutters class="px--3 my--2" cols="1" cols-md="2">
+      <b-col class="col-custom mr-auto">
         <b-button
           class="text-c2 btn-custom"
           block
@@ -17,11 +17,23 @@
           v-scroll-to="{el: '#rules', easing: 'ease'}"
         >RULES</b-button>
       </b-col>
-      <b-col class="col-custom mx-auto">
+      <b-col class="col-custom ml-auto">
         <b-button block class="text-c2 btn-custom" size="lg" variant="color-c">REGISTER</b-button>
       </b-col>
     </b-row>
     <br />
+    <div class="text-color-c px--3">
+      <div class="text-c3">September 4: 6:00 - 8:00 PM</div>
+      <br />
+      <div class="text-c4">
+        A webinar will be held about the art competition.
+        <br />A speaker session will be held on the importance of art in life and its valuable role in mental health.
+      </div>
+      <br />
+      <div class="text-c3">September 5 & 6:</div>
+      <br />
+      <div class="text-c4">The entries to the competition shall be accepted via a form.</div>
+    </div>
   </b-container>
 </template>
 
@@ -44,6 +56,10 @@ export default {
   padding-left: 3vw;
   padding-right: 3vw;
 }
+/* .px--5 {
+  padding-left: 5vw;
+  padding-right: 5vw;
+} */
 /* .mx--3 {
   margin-left: 3vw;
   margin-right: 3vw;
@@ -52,7 +68,7 @@ export default {
   padding-top: 2vw;
 }
 .image--main {
-  min-width: 94vw;
+  min-width: 100%;
 }
 .p--1 {
   padding-top: 1vh;
@@ -72,8 +88,10 @@ export default {
   font-family: "Bison Bold";
   font-size: 2rem;
 }
+.text-c3 {
+}
 .col-custom {
-  max-width: 39%;
+  max-width: 45%;
   display: block;
 }
 .btn-custom {
