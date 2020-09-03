@@ -6,11 +6,9 @@
       fluid
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
-    <div class="text-center text-color-b text-c1 my--2">
-      4 SEPTEMBER - 6 SEPTEMBER
-    </div>
+    <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
     <br />
-    <b-row no-gutters class="px--3 my--2" cols="1" cols-md="2">
+    <b-row no-gutters class="px--3 my--2-v2" cols="1" cols-md="2">
       <b-col class="col-custom mr-auto">
         <b-button
           class="text-c2 btn-custom"
@@ -18,16 +16,14 @@
           size="lg"
           variant="outline-color-c"
           v-scroll-to="{ el: '#rules', easing: 'ease' }"
-          >RULES</b-button
-        >
+        >RULES</b-button>
       </b-col>
       <b-col class="col-custom ml-auto">
-        <b-button block class="text-c2 btn-custom" size="lg" variant="color-c"
-          ><a
+        <b-button block class="text-c2 btn-custom" size="lg" variant="color-c">
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSerEAeKSC-UzAIghP4kOISXrJP2_1hvPuHgw6B1Waw5uubz2g/viewform"
-            >REGISTER</a
-          ></b-button
-        >
+          >REGISTER</a>
+        </b-button>
       </b-col>
     </b-row>
     <br />
@@ -59,13 +55,17 @@
       <div class="text-c6">
         1) Content must be original.
         <br />2) Submit within the deadline (11:59 PM, Sunday, September 6).
-        <br />3) Submit only 1 artwork per person. <br />4) Artwork must follow
-        the theme of emotion. (Pick any emotion to convey) <br />5)Theme is to
+        <br />3) Submit only 1 artwork per person.
+        <br />4) Artwork must follow
+        the theme of emotion. (Pick any emotion to convey)
+        <br />5)Theme is to
         Express your emotions and working together to prevent suicide, through
-        art eg. Happiness, confusion, frustration, etc<br />6)Digital Art can
-        not be considered.<br />
-        7) While submitting, specify the emotion that you've chosen, and the
-        idea behind your work. <br />8) Upload 2 shots, one progress shot (50%
+        art eg. Happiness, confusion, frustration, etc
+        <br />6)Digital Art can
+        not be considered.
+        <br />7) While submitting, specify the emotion that you've chosen, and the
+        idea behind your work.
+        <br />8) Upload 2 shots, one progress shot (50%
         completed), and one of your completed work.
       </div>
       <br />
@@ -80,18 +80,10 @@
         ></b-img>
       </b-col>
       <b-col class="my--2 logo2" md="4" sm="4">
-        <b-img
-          class="d-block mx-auto"
-          fluid
-          :src="require('../assets/img/SOSRoundFooter.png')"
-        ></b-img>
+        <b-img class="d-block mx-auto" fluid :src="require('../assets/img/SOSRoundFooter.png')"></b-img>
       </b-col>
       <b-col class="my--2 logo3" md="4" sm="8">
-        <b-img
-          class="d-block mx-auto"
-          fluid
-          :src="require('../assets/img/TFACLogoFooter.png')"
-        ></b-img>
+        <b-img class="d-block mx-auto" fluid :src="require('../assets/img/TFACLogoFooter.png')"></b-img>
       </b-col>
     </b-row>
   </b-container>
@@ -102,8 +94,8 @@ import Navbar from "../components/Navbar";
 export default {
   name: "Home",
   components: {
-    Navbar,
-  },
+    Navbar
+  }
 };
 </script>
 
@@ -285,5 +277,9 @@ a:hover {
     max-width: 100%;
     height: auto;
   }
+}
+.my--2-v2 {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 </style>
