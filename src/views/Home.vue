@@ -2,9 +2,14 @@
   <b-container fluid class="app-home">
     <Navbar />
     <b-img
-      class="px--3 pt--2 image--main d-block mx-auto"
+      class="px--3 pt--2 image--main d-md-block mx-auto d-none"
       fluid
       :src="require('../assets/img/HomeCard.png')"
+    ></b-img>
+    <b-img
+      class="px--3 pt--2 image--main d-md-none mx-auto d-block"
+      fluid
+      :src="require('../assets/img/MobileCard.png')"
     ></b-img>
     <div class="text-center text-color-b text-c1 my--2-v2">4 SEPTEMBER - 6 SEPTEMBER</div>
     <br />
