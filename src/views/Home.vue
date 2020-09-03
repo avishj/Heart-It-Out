@@ -6,7 +6,7 @@
       fluid
       :src="require('../assets/img/HomeCard.png')"
     ></b-img>
-    <div class="text-center text-color-b text-c1 my--2">4 SEPTEMBER - 6 SEPTEMBER</div>
+    <div class="text-center text-color-b text-c1 my--2-v2">4 SEPTEMBER - 6 SEPTEMBER</div>
     <br />
     <b-row no-gutters class="px--3 my--2-v2" cols="1" cols-md="2">
       <b-col class="col-custom mr-auto">
