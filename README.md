@@ -1,4 +1,4 @@
-# sos-vit
+# Heart-It-Out Event by Smile Over Stress VIT
 
 ## Project setup
 ```
